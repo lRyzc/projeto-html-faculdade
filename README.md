@@ -1,6 +1,6 @@
 # Projeto de HTML básico
 
-Projeto acadêmico criado somente com HTML, sem CSS ou JavaScript.
+Atividade acadêmica criado somente com HTML, sem CSS ou JavaScript.
 
 ## Páginas
 
