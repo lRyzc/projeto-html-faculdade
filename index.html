@@ -1,54 +1,91 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
-    <title>Minha Página Pessoal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página pessoal de Raul Vieira Batista, estudante de Ciência da Computação.">
+    <meta name="author" content="Raul Vieira Batista">
+    <meta name="keywords" content="HTML5, página pessoal, biografia, Ciência da Computação">
+    <title>Raul Vieira Batista | Página Pessoal</title>
 </head>
 
 <body>
-    <h1>Raul Vieira Batista</h1>
+    <header id="topo">
+        <h1>Raul Vieira Batista</h1>
 
-    <p>
-        Sou estudante e gosto de aprender coisas novas, principalmente sobre
-        <i>tecnologia e como ela pode afetar nosso futuro.</i>.<br>
-        Esta é a minha terceira página feita somente com o bom e básico HTML.
-    </p>
-
-    <hr>
-
-    <h2>Meus contatos</h2>
-
-    <ul>
-        <li><b>Nome:</b> Raul</li>
-        <li><b>E-mail:</b> <a href="mailto:ryzc.contact@gmail.com">ryzc.contact@gmail.com</a></li>
-        <li><b>Telefone:</b> (83) 98126-4978</li>
-        <li><b>Instagram:</b> <a href="https://www.instagram.com/ryzc.mp3/" target="_blank">@ryzc.mp3</a></li>
-        <li><b>GitHub:</b> <a href="https://github.com/lRyzc" target="_blank">github.com/lRyzc</a></li>
-    </ul>
+        <p>
+            Olá! Meu nome é <b>Raul Vieira Batista</b>.<br>
+            Sou estudante de Ciência da Computação e gosto de aprender coisas novas,
+            principalmente sobre <i>tecnologia e como ela pode afetar nosso futuro</i>.<br>
+            Esta página foi criada somente com o bom e básico HTML5.
+        </p>
+    </header>
 
     <hr>
 
-    <h2>Uma imagem que representa meus estudos</h2>
+    <main>
+        <section>
+            <h2>Meus contatos</h2>
 
-    <img src="img/livropegandofogo.jpg" alt="Imagem ilustrativa" width="500" height="300">
+            <ul>
+                <li><b>Nome:</b> Raul Vieira Batista</li>
+                <li><b>E-mail:</b> <a href="mailto:ryzc.contact@gmail.com">ryzc.contact@gmail.com</a></li>
+                <li><b>Telefone:</b> (83) 98126-4978</li>
+                <li>
+                    <b>Instagram:</b>
+                    <a href="https://www.instagram.com/ryzc.mp3/" target="_blank" rel="noopener noreferrer">
+                        @ryzc.mp3
+                    </a>
+                </li>
+                <li>
+                    <b>GitHub:</b>
+                    <a href="https://github.com/lRyzc" target="_blank" rel="noopener noreferrer">
+                        github.com/lRyzc
+                    </a>
+                </li>
+            </ul>
+        </section>
 
-    <p><i>Uma imagem escolhida para ilustrar como sou eu estudando.</i></p>
+        <hr>
 
-    <hr>
+        <section>
+            <h2>Uma imagem que representa meus estudos</h2>
 
-    <h2>Um vídeo do YouTube</h2>
+            <img
+                src="img/livropegandofogo.jpg"
+                alt="Livro em chamas representando a intensidade dos estudos"
+                width="400"
+                height="400">
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/V_drP-CrEPc?si=7YmLNlhxIiCiuOjk"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p><i>Uma imagem escolhida para ilustrar como sou eu estudando.</i></p>
+        </section>
 
-    <hr>
+        <hr>
 
-    <p>
-        <a href="biografia.html"><b>Clique aqui para conhecer minha biografia</b></a>
-    </p>
+        <section>
+            <h2>Um vídeo do YouTube</h2>
+
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/V_drP-CrEPc"
+                title="Vídeo escolhido por Raul no YouTube"
+                allowfullscreen>
+            </iframe>
+        </section>
+
+        <hr>
+
+        <nav>
+            <a href="biografia.html"><b>Conheça minha biografia</b></a>
+        </nav>
+    </main>
+
+    <footer>
+        <hr>
+        <p><a href="#topo">Voltar ao topo</a></p>
+    </footer>
 </body>
 
 </html>
